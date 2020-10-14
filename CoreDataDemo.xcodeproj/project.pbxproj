@@ -16,6 +16,8 @@
 		D828286A253724C700E5F665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8282868253724C700E5F665 /* LaunchScreen.storyboard */; };
 		D8282875253724C700E5F665 /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8282874253724C700E5F665 /* CoreDataDemoTests.swift */; };
 		D8282880253724C700E5F665 /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828287F253724C700E5F665 /* CoreDataDemoUITests.swift */; };
+		D828288F2537267900E5F665 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828288D2537267900E5F665 /* Person+CoreDataClass.swift */; };
+		D828289425373B2800E5F665 /* Family+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828289225373B2800E5F665 /* Family+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D828287B253724C700E5F665 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D828287F253724C700E5F665 /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		D8282881253724C700E5F665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D828288D2537267900E5F665 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D828289225373B2800E5F665 /* Family+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		D8282859253724C400E5F665 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D82828912537268500E5F665 /* Model */,
 				D828285A253724C400E5F665 /* AppDelegate.swift */,
 				D828285C253724C400E5F665 /* SceneDelegate.swift */,
 				D828285E253724C400E5F665 /* ViewController.swift */,
@@ -129,6 +134,15 @@
 				D8282881253724C700E5F665 /* Info.plist */,
 			);
 			path = CoreDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		D82828912537268500E5F665 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D828289225373B2800E5F665 /* Family+CoreDataClass.swift */,
+				D828288D2537267900E5F665 /* Person+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D828285F253724C400E5F665 /* ViewController.swift in Sources */,
+				D828289425373B2800E5F665 /* Family+CoreDataClass.swift in Sources */,
 				D8282865253724C400E5F665 /* CoreDataDemo.xcdatamodeld in Sources */,
+				D828288F2537267900E5F665 /* Person+CoreDataClass.swift in Sources */,
 				D828285B253724C400E5F665 /* AppDelegate.swift in Sources */,
 				D828285D253724C400E5F665 /* SceneDelegate.swift in Sources */,
 			);
